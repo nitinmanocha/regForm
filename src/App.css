@@ -1,0 +1,58 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register {
+  width: 400px;
+}
+.label{
+  font-size: 20px;
+  color: #0e3f47;
+  padding: 10px 0px 10px 0px;
+
+}
+
+ h2,
+.register h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0e3f47;
+}
+
+
+input {
+  background-color: #e6e6e6;
+  color: #232327;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  padding: 20px 30px;
+  border-radius:7px;
+}
+
+
+button {
+  padding: 15px 0px;
+  background-color: #0e3f47;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+.check {
+  font-size: 16px;
+}
