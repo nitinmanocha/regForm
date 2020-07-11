@@ -19,7 +19,7 @@ export const getTimeSlot = async(course) => {
    const endTime = Date.now() + 7 * 24 * 60 * 60 * 1000 // 7 days from now
 
    let index = apiResponse.findIndex((data) => data.course_name === course)
-   console.log('index',index,course)
+   console.log(course)
 
    if (index === -1)
       return []

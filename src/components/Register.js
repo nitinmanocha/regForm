@@ -64,10 +64,12 @@ class Register extends Component {
 
 	render() {
 
+		if(this.state.courseOptions.length>0 && !this.state.courseOptions[0].label){
 		this.state.courseOptions = this.state.courseOptions.map((val) => {
 			return { label: val.course_name, value: val.course_name }
 
 		})
+	}
 
 		function thanks() {
 			alert('Thank you for registration')
